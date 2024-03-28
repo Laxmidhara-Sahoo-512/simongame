@@ -1,0 +1,42 @@
+#mainbox{
+    height: 500px;width: 500px;margin: auto;margin-top: 30px;
+    display: flex;flex-direction: row;flex-wrap: wrap;justify-content: center;align-content: center;
+    gap: 20px;
+}
+body{
+    background-color: #2410CB;
+}
+
+#firstbox,#secondbox,#thirdbox,#fourthbox{
+  height: 200px;width: 200px;
+  cursor: pointer;
+}
+#firstbox{
+    border-top-left-radius: 100%;background-color: green;
+    transition-duration: 2ms;
+    transition-property: inherit;
+}
+#secondbox{
+    border-top-right-radius: 100%;background-color: red;
+    transition-duration: 2ms;
+    transition-property: inherit;
+}
+#thirdbox{
+    border-bottom-left-radius: 100%;background-color: purple;
+    transition-duration: 2ms;
+    transition-property: inherit;
+}
+#fourthbox{
+    border-bottom-right-radius: 100%;background-color: black;
+    transition-duration: 2ms;
+    transition-property: inherit;
+}
+#header{
+    text-align: center;
+    font-size: 35px;
+    font-family: cursive;
+    color:#33AD06;
+}
+.change_design{
+    box-shadow: 0 0 5px white ;
+}
